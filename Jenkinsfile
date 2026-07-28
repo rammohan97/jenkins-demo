@@ -7,7 +7,8 @@ pipeline {
         COURSE_NAME = "Jenkins"
     }
     options {
-        timeout(time: 10, unit: 'SECONDS')
+        timeout(time: 10, unit: 'MINUTES')
+        disableConcurrentBuilds()
     }
 
     stages {
@@ -17,7 +18,7 @@ pipeline {
                     sh """
                         echo "Building on ${env.NODE_NAME}"
                         echo "Course Name is :  ${env.COURSE_NAME}"
-                        sleep 15
+                        // sleep 15
                         env
                     """
                 }
