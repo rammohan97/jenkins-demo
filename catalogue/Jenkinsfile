@@ -25,6 +25,15 @@ pipeline {
                 }
             }
         }
+        stage (' Unit Tests') {
+            steps {
+                dir('catalogue') {
+                    sh """
+                        npm test
+                    """
+                }
+            }
+        }
         stage (' Build Image') {
             steps {
                 dir('catalogue') {
