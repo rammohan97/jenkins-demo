@@ -1,13 +1,19 @@
 pipeline {
+    
     agent {
         label 'AGENT-1'
     }
+    environment {
+        COURSE_NAME = "Jenkins"
+    }
+
     stages {
         stage ('Build') {
             steps { 
                 script {
                     sh """
                         echo "Building on ${env.NODE_NAME}"
+                        echo "Course Name is :  ${env.COURSE_NAME}"
                     """
                 }
             }
