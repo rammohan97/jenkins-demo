@@ -48,6 +48,11 @@ pipeline {
             }
         }
         stage ('Deploy') {
+            input { 
+                message "Do you want to deploy?"
+                ok "Yes, let's deploy!"
+                submitter "admin"
+            }
             steps {
                 sh """
                     echo 'Deploying....'
