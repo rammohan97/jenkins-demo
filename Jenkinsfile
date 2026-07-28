@@ -28,7 +28,6 @@ pipeline {
                 echo "Password is: ${params.PASSWORD}"
             }
         }
-
         stage ('Build') {
             steps { 
                 script {
@@ -44,7 +43,7 @@ pipeline {
         stage ('Test') {
             steps {
                 sh """
-                    echo 'Testing..'
+                    echo 'Testing..........'
                 """
             }
         }
