@@ -25,5 +25,14 @@ pipeline {
                 }
             }
         }
+        stage (' Build Image') {
+            steps {
+                dir('catalogue') {
+                    sh """
+                        docker build -t catalogue:${appVersion} .
+                    """
+                }
+            }
+        }
     }
 }
