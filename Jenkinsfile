@@ -54,7 +54,7 @@ pipeline {
                 submitter "admin"
             } */
             when {
-                expression { "$params.DEPLOY"  }
+                expression { "$params.DEPLOY" == "true" }
             }
             steps {
                 sh """
