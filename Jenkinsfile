@@ -23,7 +23,7 @@ pipeline {
             steps {
                 echo "Hello ${params.PERSON}"
                 echo "Biography: ${params.BIOGRAPHY}"
-                echo "Toggle value is: ${params.TOGGLE}"
+                echo "Deploy value is: ${params.DEPLOY}"
                 echo "Choice selected is: ${params.CHOICE}"
                 echo "Password is: ${params.PASSWORD}"
             }
