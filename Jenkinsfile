@@ -6,6 +6,9 @@ pipeline {
     environment {
         COURSE_NAME = "Jenkins"
     }
+    options {
+        timeout(time: 10, unit: 'SECONDS')
+    }
 
     stages {
         stage ('Build') {
@@ -14,6 +17,7 @@ pipeline {
                     sh """
                         echo "Building on ${env.NODE_NAME}"
                         echo "Course Name is :  ${env.COURSE_NAME}"
+                        sleep 15
                         env
                     """
                 }
@@ -44,6 +48,9 @@ pipeline {
         }
         failure {
             echo 'This will run only if failed'
+        }
+        aborted {
+            echo 'This will run only if pipeline aborted'
         }
     }
 }

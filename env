@@ -1,0 +1,68 @@
+SHELL=/bin/bash
+RUN_TESTS_DISPLAY_URL=http://44.220.134.204:8080/job/Hello-Demo/7/display/redirect?page=tests
+HISTSIZE=10000
+JENKINS_SERVER_COOKIE=durable-e575eef893cd4b8f30e1b523fcd040043710872786e6e73e4d79c59a80fb766e
+GIT_PREVIOUS_SUCCESSFUL_COMMIT=bb683e2dfa2244f87ce49330c14022b2437f0ecd
+HISTTIMEFORMAT=%d/%m/%y %T 
+AWS_DEFAULT_REGION=us-east-1
+RUN_CHANGES_DISPLAY_URL=http://44.220.134.204:8080/job/Hello-Demo/7/display/redirect?page=changes
+COURSE_NAME=Jenkins
+HUDSON_HOME=/var/lib/jenkins
+PWD=/home/ec2-user/jenkins/workspace/Hello-Demo
+LOGNAME=ec2-user
+XDG_SESSION_TYPE=tty
+BUILD_URL=http://44.220.134.204:8080/job/Hello-Demo/7/
+ANSIBLE_DEPRECATION_WARNINGS=False
+JOB_URL=http://44.220.134.204:8080/job/Hello-Demo/
+BUILD_NUMBER=7
+MOTD_SHOWN=pam
+JENKINS_NODE_COOKIE=e0fcccf0-5caa-4099-964a-5feee7a125f0
+BUILD_DISPLAY_NAME=#7
+HOME=/home/ec2-user
+LANG=C.UTF-8
+ANSIBLE_FORCE_COLOR=1
+JENKINS_URL=http://44.220.134.204:8080/
+JOB_BASE_NAME=Hello-Demo
+PROMPT_COMMAND=$(history -w)
+JOB_NAME=Hello-Demo
+RUN_DISPLAY_URL=http://44.220.134.204:8080/job/Hello-Demo/7/display/redirect
+SSH_CONNECTION=172.31.23.135 39230 172.31.22.64 22
+JOB_DISPLAY_URL=http://44.220.134.204:8080/job/Hello-Demo/display/redirect
+WORKSPACE=/home/ec2-user/jenkins/workspace/Hello-Demo
+GIT_PREVIOUS_COMMIT=bb683e2dfa2244f87ce49330c14022b2437f0ecd
+HUDSON_URL=http://44.220.134.204:8080/
+XDG_SESSION_CLASS=user
+NODE_NAME=Agent-1
+LESSOPEN=||/usr/bin/lesspipe.sh %s
+USER=ec2-user
+HUDSON_SERVER_COOKIE=e949257153ca10a8
+GIT_URL=https://github.com/rammohan97/jenkins-demo.git
+SHLVL=2
+BUILD_TAG=jenkins-Hello-Demo-7
+EXECUTOR_NUMBER=1
+HUDSON_COOKIE=3601a127-2e26-4e32-be33-f849b5bbfceb
+SYSTEMD_PAGER=cat
+XDG_SESSION_ID=8
+JENKINS_HOME=/var/lib/jenkins
+XDG_RUNTIME_DIR=/run/user/1001
+SSH_CLIENT=172.31.23.135 39230 22
+REQUESTS_CA_BUNDLE=/etc/pki/tls/certs/ca-bundle.crt
+DEBUGINFOD_IMA_CERT_PATH=/etc/keys/ima:
+GIT_COMMIT=bb683e2dfa2244f87ce49330c14022b2437f0ecd
+which_declare=declare -f
+NODE_LABELS=Agent-1 AGENT-1
+STAGE_NAME=Build
+AWS_CA_BUNDLE=/etc/pki/tls/certs/ca-bundle.crt
+WORKSPACE_TMP=/home/ec2-user/jenkins/workspace/Hello-Demo@tmp
+XDG_DATA_DIRS=/home/ec2-user/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share
+PATH=/home/ec2-user/.local/bin:/home/ec2-user/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin
+RUN_ARTIFACTS_DISPLAY_URL=http://44.220.134.204:8080/job/Hello-Demo/7/display/redirect?page=artifacts
+CI=true
+DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1001/bus
+GIT_BRANCH=origin/main
+BUILD_ID=7
+OLDPWD=/home/ec2-user
+BASH_FUNC_which%%=() {  ( alias;
+ eval ${which_declare} ) | /usr/bin/which --tty-only --read-alias --read-functions --show-tilde --show-dot $@
+}
+_=/usr/bin/env
