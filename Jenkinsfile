@@ -14,6 +14,7 @@ pipeline {
                     sh """
                         echo "Building on ${env.NODE_NAME}"
                         echo "Course Name is :  ${env.COURSE_NAME}"
+                        env
                     """
                 }
             }
