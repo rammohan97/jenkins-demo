@@ -19,6 +19,16 @@ pipeline {
     }
 
     stages {
+        stage ('Example_Parameter') {
+            steps {
+                echo "Hello ${params.PERSON}"
+                echo "Biography: ${params.BIOGRAPHY}"
+                echo "Toggle value is: ${params.TOGGLE}"
+                echo "Choice selected is: ${params.CHOICE}"
+                echo "Password is: ${params.PASSWORD}"
+            }
+        }
+
         stage ('Build') {
             steps { 
                 script {
